@@ -7,7 +7,7 @@ import RatingScreen from './src/screens/customer/RatingScreen'
 import DriverHomeScreen from './src/screens/driver/HomeScreen'
 import OrderRequestScreen from './src/screens/driver/OrderRequestScreen'
 import DeliveryScreen from './src/screens/driver/DeliveryScreen'
-
+import EarningsScreen from './src/screens/driver/EarningsScreen'
 const Stack = createNativeStackNavigator()
 
 export default function App() {
@@ -21,6 +21,7 @@ export default function App() {
         <Stack.Screen name="DriverHome" component={DriverHomeScreen} />
         <Stack.Screen name="OrderRequest" component={OrderRequestScreen} />
         <Stack.Screen name="DriverDelivery" component={DeliveryScreen} />
+        <Stack.Screen name="DriverEarnings" component={EarningsScreen} />
       </Stack.Navigator>
     </NavigationContainer>
   )
